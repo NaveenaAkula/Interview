@@ -1,0 +1,16 @@
+
+<div style="padding: 0.5rem;display: flex;justify-content: center;background-color: #a067a0;">
+   <span *ngFor="let type of questionTypes" style="padding-left: 1rem;">
+      <button mat-flat-button color="blue" (click)='updateTopics(type)' style="border-radius: 0rem;">{{type.name}}</button>
+    </span>
+    
+</div>
+
+<div style="padding: 0.5rem 2rem;display: flex;justify-content: center;">
+  <span *ngFor="let answer of answers">
+      <button mat-stroked-button value="bold" (click)='updateAnswer(answer)' style="border-radius: 0rem;">{{answer.name}}</button>
+    </span>
+</div>
+
+
+  <app-answers [answer] = 'answer'></app-answers>
