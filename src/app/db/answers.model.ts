@@ -10,61 +10,24 @@ export class Answers {
             {
                 'name': 'Conflict',
                 'type': 'Behaviour',
-                'content': `Conflicts at work frequently occur when you are on team are working together 
-                on a team project. Each team member brings their own perspective to the project which sometimes 
-                conflict with each other. 
-                
-                I have faced one of that. Few months back in my last job we started 
-                rewriting an application which is used for insurance agents.  In that one of the stories is assigned 
-                to one of my coworkers. He did the work and gave a demo in our design review meeting. When I saw that I
-                felt If I have taken the story I would have done differently.
-                
-                So, I have asked few questions and there was a conflict came up. So, my manager asked me to do proof of 
-                concept of my perspective. 
-                
-                I have taken up my time from other my stories and I did that proof of concept and demoed to the business, and they 
-                really like my demo. 
-                
-                Then We had a fact check of my work and coworker work. we realized we should not 
-                go personal. Since it is work related, we had our fact checks done which is performant and maintainable 
-                code. So finally, we agreed to my solution, and we resolved the conflict and gave the best
-                results to the business as a team.`
+                'content': `Sure. I believe everyone in the team will have different perspectives. Like every problem have multiple solutions. I don’t see the conflict in a negative way because it gives you the chance of improving yourself one way or the other. I can give you an example, in my last job we were rewriting the application we have design review meeting and me and my coworker have the proof of concepts. We have solutions with different perspectives.  At that time, I went by considering the fact checks like which one will be the performant and maintainable code. We resolved the conflict by communication. keeping our perspectivse infront. At the end, I feel that If my coworker solutions are the best I will learn from that and reiterate through what I have missed. The other positive thing is we can solve the issue by communicating to the coworker about the issue. So that we can give the best output as a team..`
              },
             {
                 'name': 'Achievement',
                 'type': 'Behaviour',
-                'content': `When I started my grad course , I knew that I wanted to become a full-stack 
-                web developer in my career. Because I was backend developer mainly after my undergrad and in Infosys. 
-                So I have decided that I am going to assign few tasks and build up small  projects. So,  I started spending 
-                some of my spare time learning about full-stack development practices, and invested heavily in building a few 
-                side projects to improve  my skills.  I had never missed a chance to grab the opportunity to learn things. 
-                Once my professor asked us to build an application as part of my course work. I went to professor and I have 
-                asked that I would like to build the application using Angular and backend Java. But he agreed to build an 
-                application with Angular and Django python framework. I did  built the project and the outcome was awesome 
-                and gave presentation to my professor. This helped me build the skills I needed to position myself as a good 
-                candidate for a bigger full-stack web development task in the future..`
+                'content': `Well, as an intern at physicians mutual, I think my greatest achievement was what I managed to accomplish during my time there. Mainly my team is more focused on backend work related to API’s. Recently, due to architectural changes our team got assigned to rewrite an application and the tech stack for that is the client-side angular front-end framework and backend spring boot. At that point, everyone is on the same boat. But I do have an experience working with angular. I have built multiple applications. So, I took this opportunity to showcase my skills. I took the initiative and worked on the majority part of the angular application. At the end, the output was awesome and my team members, business people gave me the appreciation for the work I did. So, I feel that was the greatest achievement.`
             },
             {
                 'name': 'Failure',
                 'type': 'Behaviour',
-                'content': 'Of course after so many failures/ mistakes I am right here in my career. When I realize what I have done is a mistake. I will Stop what I am doing and evaluate that mistake. While evaluating, I will check whether Is it small enough to resolve without taking too much time? If so, I will resolve the mistake and move on. Alternatively, if there is no other option than to rework the project (which may impact on meeting the deadline), the first thing that I do is to notify my seniors/ Tech lead. So they will be helping to decide whether  to reschedule my  day or work longer to finish the project and meet the deadline or move the story to next iteration.'
+                'content': `Of course after so many failures/ mistakes in my career. When I realize what I have done is a mistake. I will Stop what I am doing and evaluate that mistake. While evaluating, I will check whether Is it small enough to resolve without taking too much time? If so, I will resolve the mistake and move on. Alternatively, if there is no other option than to rework the project (which may impact on meeting the deadline), the first thing that I do is to notify my seniors/ Tech lead. So they will be helping to decide whether  to reschedule my  day or work longer to finish the project and meet the deadline or move the story to next iteration. I can give you an example that I faced in the physicians mutual. In our team we juggle between multiple projects with different tech stack like angular, java development for APIs and we do use salesforce too. I was pretty new to salesforce. To gain knowledge in salesforce I used to do multiple trail heads. In my starting days, I got assigned to a salesforce story, i don’t say it is a failure I was trying to do trail heads and do the story but I couldn’t. So, I went to my senior and asked how to do that. He gave a link to documentation which points to that specific change. So I  did learn a lot while making the mistakes.`
             },
             {
                 'name': 'Challenging /Problem solving',
                 'type': 'Behaviour',
                 'content': 'Yes, In any work environment many challenges arise. An unexpected situation may come up, or we may realize that something is more difficult than we expected. I did face many situations like that one of it was. In my last job, we are of 4 members of dev team. In that me and one of my senior work on most of the angular tasks. Unfortunately, one day my senior need to leave the company. But we have angular tasks left. So, My manager asked me that whether will I be able to handle the tasks without my senior. I have told my manager that I can handle them on my own. My manager believed me and handled the all the angular tasks that left over. So, I had taken up the tasks and completed the tasks on time and gave them to testers to test. I felt this is a very challenging situation for me at that time since I need to juggle between the multiple tasks.'
             },
-            {
-                'name': 'complex things explain',
-                'type': 'Behaviour',
-                'content': 'blah blah blah'
-            },
-            {
-                'name': 'Adaptability/cope up',
-                'type': 'Behaviour',
-                'content': 'blah blah blah'
-            },
-            {
+          {
                 'name': 'Set up goals',
                 'type': 'Behaviour',
                 'content': `OfCourse I do setup goals in the each and every work. I believe Setting goals is an 
@@ -107,7 +70,7 @@ export class Answers {
                 'name': 'Hire',
                 'type': 'Behaviour',
                 'content': `“My impression based on the job description is that you need someone who can do
-                 <key responsibility of the job>. In my last role, I did <similar task or accomplishment you’ve
+                 <key responsibility of the job like Java, Spring / Spring Boot, JavaScript, SQL, worked on unit teste, good communication and fast learner>. In my last role, I did <similar task or accomplishment you’ve
                  done in the past>, so I’m confident I will be able to step into this role and begin contributing 
                  quickly for you. As a side note, I’m also personally very <interested/passionate> about 
                  <topic related to the job you’ll be doing>, so I’d be very excited for the 
