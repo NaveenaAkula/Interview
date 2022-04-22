@@ -92,21 +92,46 @@ export class Answers {
                 `
             },
             {
-                'name': 'Spring ErrorHandling',
-                'type': 'Spring',
-                'content': `
-                @ExceptionHandler annotations is used to Exceptions throw exceptions by a Controller method which is mapped to the ControllerAdvice.
-
-                
-                For example if an exception occurs we don't want the caller to get the entire stack trace instead we can return the appropriate response status depending on the business logic.
-                `
-            },
-            {
                 'name': 'IOC',
                 'type': 'Spring',
                 'content': `
                 IoC Container is a framework that is used for implementing automatic dependency injection. It manages object creation and its lifetime. It, it also injects dependencies into the class.
                 Spring container forms the core of the Spring Framework. The Spring container uses Dependency Injection (DI) for managing the application components by creating objects, wiring them together along with configuring and managing their overall life cycles.
+                `
+            },
+            {
+                'name': 'Rest vs Soap',
+                'type': 'Spring',
+                'content': `
+                SOAP stands for Simple Object Access Protocol whereas REST stands for Representational State Transfer.
+
+                SOAP is a protocol whereas REST is an architectural pattern.
+
+                SOAP uses service interfaces to expose its functionality to client applications 
+                    while REST uses Uniform Service locators to access to the components on the hardware device.
+
+                SOAP needs more bandwidth for its usage whereas REST doesn’t need much bandwidth.
+
+                Comparing SOAP vs REST API, SOAP only works with XML formats whereas REST work 
+                    with plain text, XML, HTML and JSON.
+
+                SOAP cannot make use of REST whereas REST can make use of SOAP.
+                `
+            },
+            {
+                'name': 'MVC',
+                'type': 'Spring',
+                'content': `
+                The Spring Web MVC framework provides Model-View-Controller (MVC) architecture and ready components that can be 
+                used to develop flexible and loosely coupled web applications
+
+                The Spring Web model-view-controller (MVC) framework is designed around a DispatcherServlet that handles 
+                all the HTTP requests and responses
+
+                After receiving an HTTP request, DispatcherServlet consults the HandlerMapping to call the appropriate Controller.
+
+                The Controller takes the request and calls the appropriate service methods based on used GET or POST method. 
+                The service method will set model data based on defined business logic and returns view name to the DispatcherServlet.
                 `
             },
             {
@@ -155,6 +180,20 @@ export class Answers {
                 Finally: It is the block present in a program where all the codes written inside it get executed irrespective of handling of exceptions.
 
                 Finalize: Prior to the garbage collection of an object, the finalize method is called so that the clean-up activity is implemented. Example:
+                `
+            },
+            {
+                'name': 'JMS',
+                'type': 'Java',
+                'content': `
+                JMS (Java Message Service) is an API that provides the facility to create, send and read messages
+                
+                There are two types of messaging domains in JMS.
+                    Point-to-Point Messaging Domain
+                        In PTP model, one message is delivered to one receiver only
+                    Publisher/Subscriber Messaging Domain
+                    In Pub/Sub model, one message is delivered to all the subscribers. It is like broadcasting.
+
                 `
             },
             {
