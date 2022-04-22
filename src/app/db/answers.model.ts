@@ -105,6 +105,7 @@ export class Answers {
                 'name': 'IOC',
                 'type': 'Spring',
                 'content': `
+                IoC Container is a framework that is used for implementing automatic dependency injection. It manages object creation and its lifetime. It, it also injects dependencies into the class.
                 Spring container forms the core of the Spring Framework. The Spring container uses Dependency Injection (DI) for managing the application components by creating objects, wiring them together along with configuring and managing their overall life cycles.
                 `
             },
@@ -191,6 +192,9 @@ export class Answers {
                     QA
                     Stage
                     Production
+
+                    Dependency injection is a programming technique that makes a class independent of its dependencies
+                    Dependency Injection Classes often require references to other classes. For example, a Train class might need a reference to an Engine class. These required classes are called dependencies, and in this example, the Train class is dependent on having an instance of the Engine class to run.
                 `
             },
             {
@@ -213,6 +217,9 @@ export class Answers {
                 'name': 'Annotations',
                 'type': 'Spring',
                 'content': `
+                @controller  - Controller is a common annotation that is used to mark a class as a spring MVC controller.
+                @RestController - Rest controller is a Springspecial controller used in Restful web services and the wrapped within the @controller and @Responsebody
+
                 @Configuration - used to mark a class as a source of the bean definitions. Beans are the components 
                 of the system that you want to wire together. A method marked with the @Bean annotation is a bean 
                 producer. Spring will handle the life cycle of the beans for you,and it will use these methods to 
@@ -377,11 +384,14 @@ export class Answers {
                 'name': 'OOPS concepts',
                 'type': 'Java',
                 'content': `
+                Interface:- An interface in the Java programming language is an abstract type that is used to specify a behaviour that classes must implement.
                Abstraction:-
                 the process of identifying only the required characteristics of an object ignoring the irrelevant details.
                 Eg:- man driving a car. The man only knows that pressing the accelerators will increase the speed of car or applying brakes will stop the car, but he does not know about how on pressing the accelerator the speed is actually increasing, he does not know about the inner mechanism of the car or the implementation of the accelerator, brakes, etc in the car.
                 
-                Encapusaltion:- wrapping up of data and behaviour of an object under a single unit.
+                Encapusaltion:- wrapping up of data and behaviour of an object under a single unit.The idea behind encapsulation is to 
+                hide the implementation details from users. If a data member is private it means it can only be accessed 
+                within the same class. No outside class can access private data member (variable) of other class.
                
                 Inheritance:- Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class.
                 
